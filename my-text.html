@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Control Buttons on Image</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0-beta3/css/all.min.css">
+    <style>
+        /* Container for the image and buttons */
+        .image-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Style for the image */
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Style for the video control buttons */
+        .video-controls {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            display: none;
+        }
+
+        /* Style for the play button icon */
+        .play-button {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 20px;
+        }
+        
+        .video-controls p{
+          color: #ffffff;
+        }
+
+        /* Style for the play button on hover */
+        .play-button:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        /* Show video controls on hover */
+        .image-container:hover .video-controls {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="image-container">
+        <img src="images/Rectangle 7.png" alt="">
+        <div class="video-controls">
+            <button class="play-button"><i class="fa-regular fa-circle-play"></i></button>
+            <p>Watch Now</p>
+            
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/be1d1aaf13.js" crossorigin="anonymous"></script>
+</body>
+</html>
