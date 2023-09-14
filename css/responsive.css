@@ -46,18 +46,21 @@
     }
     .game-group-div{
         padding: 2px 3px;
-        justify-content: center;
-        gap: px;
+        justify-content: space-between;
+        gap: 5px;
          
      }
      .game-group-div img{
         border-radius: 50px;
         background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-        width: 20%;
+        width: 60px;
+        height: 60px;
         object-fit: cover;
     }
     .game-group-div p{
-        font-size: 10px;
+        font-size: 16px;
         font-weight: 600;
+        text-wrap: nowrap;
+        
     }
 }
