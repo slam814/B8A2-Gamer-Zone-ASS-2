@@ -248,7 +248,7 @@ background-clip: text;
 
 /* Style for the left div (content) */
 .left-div {
-    flex: 1;
+    
     padding: 20px;
     text-align: center;
     
@@ -256,7 +256,7 @@ background-clip: text;
 
 /* Style for the right div (images container) */
 .right-div {
-    flex: 1;
+    
     position: relative;
     background-color: #ccc;
 }
