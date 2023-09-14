@@ -41,6 +41,11 @@
     gap: 20px;
     margin: 25px auto;
 }
-
+.footer-item-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
 
 /* The shared style ends here */

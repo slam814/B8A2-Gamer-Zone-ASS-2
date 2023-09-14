@@ -292,8 +292,8 @@ background-clip: text;
 
 /* <!-- action Game feauter section style Started --> */
 .action-game-feauter-section{
-margin-top: 150px;
-padding: 180px;
+margin-top: 50px;
+padding: 80px;
 background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
 
 }
@@ -322,7 +322,7 @@ background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66
 .game-group-div p{
     text-wrap: nowrap;
     color: #0B0223;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
 }
 
@@ -330,4 +330,51 @@ background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66
 /* <!-- action Game feauter section style ENDS --> */
 
 /* Footer Section Started here  */
+footer{
+    background: #0B0223;
+    min-height: 400px;
+}
+.footer-section{
+    padding: 120px 40px;
+    min-height: 20px;
+    max-width: 1400px;
+    margin: 80px auto;
+}
+.footer-icon-div {
+    margin-bottom: 80px;
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-icon-div img{
+    width: 86.041px;
+    height: 40px;
+    object-fit: cover;
+}
+.footer-icon-G{
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.manu-div{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.fa-brands {
+    color: #FFF;
+    font-size: 40px;
+}
+.privacy-div{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+small{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
 /* Footer Section Ends here  */
