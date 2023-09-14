@@ -231,3 +231,60 @@ background-clip: text;
 }
 
 /* The Online Games Section Style Ends here  */
+
+
+
+
+/* The Play Instantly Section style Startd here  */
+/* Styles for the section */
+.section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 50px auto ;
+}
+
+/* Style for the left div (content) */
+.left-div {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+/* Style for the right div (images container) */
+.right-div {
+    flex: 1;
+    position: relative;
+    background-color: #ccc;
+}
+.play-int-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Style for the images */
+.image1 {
+    width: 100%;
+    height: auto;
+}
+.image2{
+   width: 35%;
+    height: auto;
+}
+
+/* Style for the image that will be on top */
+.image2 {
+    position: absolute;
+    left: -120px;
+    bottom: -50px;
+    z-index: 1; /* Place it on top */
+}
+/* The Play Instantly Section style Ends here  */
+
+
+

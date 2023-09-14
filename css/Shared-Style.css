@@ -30,6 +30,9 @@
 .btn-secondary{
     background: #4EC5F7;
 }
-   
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+   }
 
 /* The shared style ends here */
