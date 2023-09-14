@@ -40,4 +40,24 @@
       margin: 40px auto;
 
     }
+
+    .dis-hiden{
+        display: none;
+    }
+    .game-group-div{
+        padding: 2px 3px;
+        justify-content: center;
+        gap: px;
+         
+     }
+     .game-group-div img{
+        border-radius: 50px;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+        width: 20%;
+        object-fit: cover;
+    }
+    .game-group-div p{
+        font-size: 10px;
+        font-weight: 600;
+    }
 }

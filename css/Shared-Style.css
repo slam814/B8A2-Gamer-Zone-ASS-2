@@ -34,5 +34,13 @@
     max-width: 1400px;
     margin: 0 auto;
    }
+.action-game-flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 25px auto;
+}
+
 
 /* The shared style ends here */
