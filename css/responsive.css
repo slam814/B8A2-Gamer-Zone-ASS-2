@@ -1,0 +1,26 @@
+/* ----------------Responsiv-----Style----Start---------- */
+
+
+/* ------------Mobile-----Device-------- */
+@media screen and (max-width: 576px) {
+    .nav-container,
+    .nav-manu-container {
+        flex-direction: column;
+    }
+    .top-banner-container{
+        flex-direction: column-reverse;
+        
+    }
+    .top-banner-content,
+    .top-banner-img{
+   
+        width: 100%;
+    }
+    .top-banner-content-heading{
+    
+        font-size: 80px;
+        font-weight: 800;
+    }
+       
+   
+}
