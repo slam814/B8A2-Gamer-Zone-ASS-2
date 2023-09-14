@@ -5,7 +5,8 @@
 @media screen and (max-width: 576px) {
     .nav-container,
     .nav-manu-container,
-    .cord-container {
+    .cord-container,
+    .play-instantly-section  {
         flex-direction: column;
     }
     .top-banner-container{
@@ -22,8 +23,21 @@
         font-size: 80px;
         font-weight: 800;
     }
-    .card-img img{
+    .card-img img, .first-img-div img{
         width: 100%;
     }
-   
+    .image2 {
+        width: 35%;
+        position: absolute;
+        left: -0px;
+        bottom: -50px;
+        z-index: 1; /* Place it on top */
+    }
+    
+    .right-div, .left-div {
+    
+      max-width: 576px;
+      margin: 40px auto;
+
+    }
 }

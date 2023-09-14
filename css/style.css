@@ -237,13 +237,13 @@ background-clip: text;
 
 /* The Play Instantly Section style Startd here  */
 /* Styles for the section */
-.section {
+.play-instantly-section {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1400px;
-    margin: 50px auto ;
+    margin: 80px auto ;
 }
 
 /* Style for the left div (content) */
@@ -258,7 +258,6 @@ background-clip: text;
 .right-div {
     
     position: relative;
-    background-color: #ccc;
 }
 .play-int-color{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -271,14 +270,17 @@ background-clip: text;
 .image1 {
     width: 100%;
     height: auto;
+    object-fit: cover;
 }
 .image2{
-   width: 35%;
-    height: auto;
+   
 }
 
 /* Style for the image that will be on top */
 .image2 {
+    width: 45%;
+    height: auto;
+    object-fit: cover;
     position: absolute;
     left: -120px;
     bottom: -50px;
