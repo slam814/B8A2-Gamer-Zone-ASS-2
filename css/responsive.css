@@ -13,17 +13,30 @@
         flex-direction: column-reverse;
         
     }
+    .image-container img{
+        min-width: 568px;
+        max-width: 576px;
+        margin: 10px auto;
+    }
     .top-banner-content,
     .top-banner-img{
    
         width: 100%;
+    }
+    .top-banner-content{
+        display: flex;
+        align-items: center;
+        justify-content: c;
     }
     .top-banner-content-heading{
     
         font-size: 80px;
         font-weight: 800;
     }
-    .card-img img, .first-img-div img{
+    .action-game-feauter-section {
+        min-width: 576px;
+    }
+    .first-img-div img{
         width: 100%;
     }
     .image2 {
@@ -60,7 +73,7 @@
     .game-group-div p{
         font-size: 16px;
         font-weight: 600;
-        text-wrap: nowrap;
+        text-wrap: wrap;
         
     }
 }

@@ -69,6 +69,9 @@ background-clip: text;
     padding: 6px;
     border-radius: 5px;
     background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /* Nav Section Style  Ends here */
@@ -81,7 +84,10 @@ background-clip: text;
 
 /* Top Banner section Style ends here  */
 .top-banner{
-    margin-top: 50px;
+    margin-top: 0;
+    background-image: url(../images/Group\ 14.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
 }
 .top-banner-container{
     
@@ -90,12 +96,12 @@ background-clip: text;
     justify-content: space-between;
     align-items: center;
 }
-.top-banner-content-bg{
+/* .top-banner-content-bg{
     background-image: url(../images/Group\ 14.png);
     background-size: cover;
     background-repeat: no-repeat;
     
-}
+} */
 .top-banner-content{
    
     width: 50%;
@@ -332,16 +338,15 @@ background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66
 /* Footer Section Started here  */
 footer{
     background: #0B0223;
-    min-height: 400px;
+    min-height: 40px;
+    padding: 10px 0;
 }
 .footer-section{
-    padding: 120px 40px;
     min-height: 20px;
     max-width: 1400px;
     margin: 80px auto;
 }
 .footer-icon-div {
-    margin-bottom: 80px;
     color: #FFF;
     font-size: 45px;
     font-weight: 700;
